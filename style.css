@@ -20,6 +20,10 @@ text-align: center;
 width: 7rem;
 height: 3rem;
 margin: 0 auto;
+font-size: larger;
+font-style: italic;
+font-weight: 700;
+
 }
 
 .button {
