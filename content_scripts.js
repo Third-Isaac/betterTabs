@@ -27,11 +27,12 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// document.addEventListener("keyup", (e) => {
-//    if (keydown) {
-//     keydown = false;
-//     window.location.reload();
-// }
+
+document.addEventListener("keyup", (e) => {
+  // keydown = false;
+   if (!keydown) {
+    window.location.reload();
+})
 // );
 // // const body1 = document.querySelector('body');
 // // body1.style.backgroundColor = 'red';
