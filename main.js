@@ -4,7 +4,7 @@ body1.style.backgroundColor = 'black';
 }
 )
 
-const pics = ["assets/oogway.gif", "assets/mike.png", "assets/boom.png", "assets/lake.gif"];
+const pics = ["assets/mike.png", "assets/boom.png", "assets/lake.gif"];
 let counter = 0;
 
 const button = document.querySelector("#click");

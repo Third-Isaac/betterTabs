@@ -1,7 +1,7 @@
 {
-  "name": "Better Tabs",
-  "version": "1.0",
-  "description": "Better freaking tabs!!",
+  "name": "DarkMode+",
+  "version": "3.0",
+  "description": "Dark Mode..... PLUS",
   "manifest_version": 3,
   "author": "Isaac and Elinor",
   "action":{
@@ -11,7 +11,7 @@
   "icons":{
     "48": "assets/logo.png"
   },
-  "content_scripts" : [
+  "content_scripts":[
    { 
     "matches": ["<all_urls>"],
     "js":["content_scripts.js"],
