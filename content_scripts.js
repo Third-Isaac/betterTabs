@@ -4,7 +4,7 @@
 //   body1.style.backgroundColor = 'red';
 // })
 
-const elements = document.querySelectorAll("body");
+const elements = document.querySelectorAll("div");
 elements.push(document.querySelectorAll("head"));
 elements.push(document.querySelectorAll("div"))
 for (let i in elements){
