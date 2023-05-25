@@ -9,8 +9,10 @@ const elements = document.getElementsByTagName("*");
 // elements.push(document.querySelectorAll("head"));
 // elements.push(document.querySelectorAll("div"))
 for (let i in elements){
-  elements[i].style.backgroundColor = 'red'
-
+  if (elements[i].textContent){ 
+    elements[i].style.color = 'white';
+  }
+  elements[i].style.backgroundColor = 'black';
 }
 // const body1 = document.querySelector('body');
 // body1.style.backgroundColor = 'red';
