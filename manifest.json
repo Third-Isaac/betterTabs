@@ -1,0 +1,17 @@
+{
+  "name": "Better Tabs",
+  "version": "1.0",
+  "description": "Better freaking tabs!!",
+  "manifest_version": 3,
+  "author": "Isaac and Elinor",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Better Tabs"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons":{
+    "48": "assets/logo.png"
+  }
+}
