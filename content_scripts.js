@@ -3,6 +3,9 @@
 //   console.log(body1);
 //   body1.style.backgroundColor = 'red';
 // })
+// const image = document.querySelector("body")
+// console.log(image)
+// image.innerHTML = ""
 
 const elements = document.getElementsByTagName("*");
 // document.querySelectorAll("div");
