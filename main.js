@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (e)=>{
 const body1 = document.querySelector('body')
-body1.style.backgroundColor = 'red';
+body1.style.backgroundColor = 'black';
 }
 )
 
