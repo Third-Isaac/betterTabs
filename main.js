@@ -1,7 +1,11 @@
 
-  //url
-  fetch('w3schools.com')
-  .then((data) => data.json())
-  .then((data) => {
-    console.log(data)
-  })
+  const paragraph = document.getElementsByClassName('fallback-copy');
+  console.log(paragraph.textContent);
+
+
+
+
+
+
+
+
