@@ -4,7 +4,7 @@ body1.style.backgroundColor = 'black';
 }
 )
 
-const pics = ["assets/motivation.gif", "assets/cat.jpg", "assets/mike.png", "assets/boom.png", "assets/lake.gif"];
+const pics = ["assets/motivation.gif", "assets/cat.jpg", "assets/mike.png", "assets/boom.png", "assets/us.jpg"];
 let counter = 0;
 
 const button = document.querySelector("#click");
