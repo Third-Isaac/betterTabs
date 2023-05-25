@@ -2,7 +2,8 @@ body {
     width: 600px;
     height: 750px;
     color: black;
-    background-image: url("./waterfall.gif");
+    background-image: url("assets/waterfall.gif");
+    background-size: fill;
 }
 
 .picture {
