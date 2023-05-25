@@ -4,6 +4,19 @@ body1.style.backgroundColor = 'black';
 }
 )
 
+const pics = ["assets/video.mp4", "assets/oogway.gif", "assets/mike.png", "boom.png", "assets/lake.gif"];
+let counter = 0;
+
+
+const button = document.querySelector("#click");
+const slideshow = document.querySelector("#slideshow");
+// console.log(pics[counter])
+
+button.addEventListener("click", ()=>{
+  console.log(pics[counter])
+  slideshow.src =`${pics[counter]}`;
+  counter++;
+})
 
   // const paragraph = document.getElementsByClassName('fallback-copy');
   // console.log(paragraph.textContent);
