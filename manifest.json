@@ -8,17 +8,14 @@
     "default_popup": "index.html",
     "default_title": "Better Tabs"
   },
-  "permissions": [
-    "tabs",
-    "active_tab"
-  ],
   "icons":{
     "48": "assets/logo.png"
   },
   "content_scripts" : [
    { 
     "matches": ["<all_urls>"],
-    "js":["content_scripts.js"]
+    "js":["./content_scripts.js"],
+    "runAt": "document_end"
   }
   ]
   
